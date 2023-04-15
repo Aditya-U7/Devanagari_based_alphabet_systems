@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 
 print()
 for i in range(5,21):
@@ -15,12 +15,12 @@ for i in range(5,42):
   if i in [25,33,35,36]:
    continue
   
-  j=int(hex(i),16)
-  x=chr(0x0910+j)
+  j = int(hex(i),16)
+  x = chr(0x0910+j)
   
   print(x,' ',end='',)
   
-  if(i+1)%5==0 and i<29 or i==30 or i==37:
+  if ( ( i + 1 ) % 5 == 0 ) and (i < 29) or ( i == 30 ) or ( i == 37 ):
    print()
   
       
