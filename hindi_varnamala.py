@@ -13,7 +13,7 @@ def print_vowels():
 
 def print_consonants():
     
-    for i in range(5, 42):                   # This one is for consonants.
+    for i in range(5, 42):                   # This one is for the consonants.
         if i in [25, 33, 35, 36]:
             continue
 
