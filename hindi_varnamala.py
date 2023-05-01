@@ -20,7 +20,7 @@ def print_consonants():
         j = int(hex(i), 16)
         x = chr(0x0910 + j)
 
-        print(x," ", end="",)
+        print(x," ", end="")
 
         if (i + 1) % 5 == 0 and i < 29 or i == 30 or i == 37:
             print()
