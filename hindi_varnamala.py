@@ -31,7 +31,14 @@ def print_consonants():
             
             print()        
     
-    print("\nक्ष त्र ज्ञ श्र")
+    print()
+    ksha = chr(0x0915) + chr(0x094D) + chr(0x0937)
+    tra = chr(0x0924) + chr(0x094D) + chr(0x0930)
+    jna = chr(0x091C) + chr(0x094D) + chr(0x091E)
+    shra = chr(0x0936) + chr(0x094D) + chr(0x0930)
+    
+    print(ksha, tra, jna, shra)          #print("\nक्ष त्र ज्ञ श्र")
+    
 
 def print_hindi_varnamala():
    
