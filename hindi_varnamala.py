@@ -30,7 +30,8 @@ def print_consonants():
         if ((i+1) % 5 == 0 and i < 29) or (i == 30) or (i == 37):
             
             print()        
-
+    
+    print("\nक्ष त्र ज्ञ श्र")
 
 def print_hindi_varnamala():
    
