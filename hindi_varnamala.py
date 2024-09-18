@@ -12,8 +12,8 @@ def print_vowels():
         
         print(chr(0x0900 + i), " ", end="")
      
-    print(chr(0x0902), chr(0x0905), sep="", end=" ")
-    print(chr(0x0905), chr(0x0903), sep="")    
+    print(chr(0x0905) + chr(0x0902), end=" ")
+    print(chr(0x0905) + chr(0x0903))    
         
 
 def print_consonants():
