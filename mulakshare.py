@@ -53,5 +53,5 @@ def print_mulakshare():
 
 #####################
 
-print_hindi_varnamala()
+print_mulakshare()
   
