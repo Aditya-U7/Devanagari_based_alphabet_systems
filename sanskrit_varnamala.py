@@ -44,7 +44,7 @@ def print_consonants():
     print(ksha, tra, jna, shra)          #print("\nक्ष त्र ज्ञ")
     
 
-def print_hindi_varnamala():
+def print_varnamala():
    
     print_vowels()
     
@@ -56,5 +56,5 @@ def print_hindi_varnamala():
 
 #####################
 
-print_hindi_varnamala()
+print_varnamala()
   
